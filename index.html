@@ -12,6 +12,7 @@
     <section>
         <h2>Novo Usuário</h2>
         <form id="form-usuario">
+            <input type="hidden" id="usuario-id">
             <div>
                 <label for="nome">Nome:</label>
                 <input type="text" id="nome" required>
@@ -28,7 +29,8 @@
                 <label for="senha">Senha:</label>
                 <input type="password" id="senha" required>
             </div>
-            <button type="submit">Salvar Usuário</button>
+            <button type="submit" id="btn-salvar">Salvar</button>
+            <button type="reset" id="btn-cancelar">Cancelar</button>
         </form>
     </section>
 
